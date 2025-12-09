@@ -1,0 +1,12 @@
+## MacRumors Nav Check (Puppeteer)
+Small headless test that opens `https://www.macrumors.com/`, taps the **3rd bottom tab**, and checks for **“iPadOS 26 Timeline.”**
+
+### Quick Start
+1) Install deps: `npm install puppeteer`  
+2) Run: `node script.js`
+
+### What Happens
+- Launches Chromium (headless).
+- Goes to MacRumors.
+- Clicks the 3rd bottom nav tab.
+- Verifies the text is present.
